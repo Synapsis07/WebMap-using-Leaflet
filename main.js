@@ -12,19 +12,19 @@ var googleSat = L.tileLayer('http://{s}.google.com/vt?lyrs=s&x={x}&y={y}&z={z}',
   subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
 });
 const schicon = L.icon({
-  iconUrl: 'data/sch.png',
+  iconUrl: 'sch.png',
   iconSize: [32, 37],
   iconAnchor: [16, 37],
   popupAnchor: [0, -37],
 });
 const stuicon = L.icon({
-  iconUrl: 'data/stu.png',
+  iconUrl: 'stu.png',
   iconSize: [30, 30],
   iconAnchor: [15, 40],
   popupAnchor: [0, -40],
 });
 const landicon = L.icon({
-  iconUrl: 'data/land.png',
+  iconUrl: 'land.png',
   iconSize: [40, 40],
   iconAnchor: [20, 40],
   popupAnchor: [0, -40],
